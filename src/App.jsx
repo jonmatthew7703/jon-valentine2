@@ -60,19 +60,12 @@ export default function Page() {
           />
           <div className="flex justify-center my-6">
   <video
+    className="h-[230px] rounded-lg shadow-lg"
     src={myVideo}
     autoPlay
     loop
     muted
-    playsInline
-    className="
-      w-[420px]
-      h-[240px]
-      object-cover
-      rounded-2xl
-      border-4 border-pink-400
-      shadow-xl
-    "
+    controls
   />
 </div>
           <h1 className="text-4xl md:text-6xl my-4 text-center">
