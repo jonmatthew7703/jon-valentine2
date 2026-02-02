@@ -58,16 +58,24 @@ export default function Page() {
             src={lovesvg2}
             className="fixed bottom-16 -z-10 animate-pulse md:right-24 right-10 md:w-40 w-32"
           />
-          <video
-  src="/download.mp4"
-  autoPlay
-  loop
-  muted
-  className="w-[380px] md:w-[480px] lg:w-[520px]
-             max-h-[320px]
-             object-contain
-             rounded-2xl shadow-xl border-4 border-pink-400"
-/>
+          <div className="flex justify-center my-6">
+  <video
+    src="/download.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="
+      w-[320px] sm:w-[420px] md:w-[520px]
+      h-[200px] sm:h-[250px] md:h-[300px]
+      object-cover
+      rounded-2xl
+      border-4 border-pink-400
+      shadow-xl
+    "
+  />
+</div>
+
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Kunjo Will you be my Valentine? ❤️
           </h1>
