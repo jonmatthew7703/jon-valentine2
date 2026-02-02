@@ -60,14 +60,14 @@ export default function Page() {
           />
           <div className="flex justify-center my-6">
   <video
-    src="/download.mp4"
+    src={myVideo}
     autoPlay
     loop
     muted
     playsInline
     className="
-      w-[320px] sm:w-[420px] md:w-[520px]
-      h-[200px] sm:h-[250px] md:h-[300px]
+      w-[300px]
+      h-[200px]
       object-cover
       rounded-2xl
       border-4 border-pink-400
@@ -75,7 +75,6 @@ export default function Page() {
     "
   />
 </div>
-
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Kunjo Will you be my Valentine? ❤️
           </h1>
