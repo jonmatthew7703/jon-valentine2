@@ -2,6 +2,7 @@ import { useState } from "react";
 import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
 import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
 import myVideo from "./assets/download.mp4";
+import confetti from "canvas-confetti";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -58,14 +59,15 @@ export default function Page() {
             className="fixed bottom-16 -z-10 animate-pulse md:right-24 right-10 md:w-40 w-32"
           />
           <video
-  className="w-[400px] md:w-[550px] 
-             rounded-2xl shadow-2xl border-4 border-pink-300"
-  src={myVideo}
+  src="/download.mp4"
   autoPlay
   loop
   muted
+  className="w-[380px] md:w-[480px] lg:w-[520px]
+             max-h-[320px]
+             object-contain
+             rounded-2xl shadow-xl border-4 border-pink-400"
 />
-
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Kunjo Will you be my Valentine? ❤️
           </h1>
