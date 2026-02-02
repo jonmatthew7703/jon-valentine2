@@ -58,12 +58,13 @@ export default function Page() {
             className="fixed bottom-16 -z-10 animate-pulse md:right-24 right-10 md:w-40 w-32"
           />
           <video
-  className="w-[600px] md:w-[850px] lg:w-[1000px]
-             rounded-3xl shadow-2xl border-4 border-pink-300"
-  src={myVideo}
-  autoPlay
-  loop
-  muted
+            className="w-[350px] md:w-[450px] lg:w-[550px]
+             rounded-2xl shadow-xl"
+            src={myVideo}
+            autoPlay
+            loop
+            muted
+            controls
 />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
             Kunjo Will you be my Valentine? ❤️
