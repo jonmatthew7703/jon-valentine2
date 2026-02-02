@@ -66,8 +66,8 @@ export default function Page() {
     muted
     playsInline
     className="
-      w-[300px]
-      h-[200px]
+      w-[420px]
+      h-[240px]
       object-cover
       rounded-2xl
       border-4 border-pink-400
